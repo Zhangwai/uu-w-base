@@ -6,7 +6,49 @@ English | [简体中文](./README.zh-CN.md)
 
 ## 🚀 How to use?
 
-![](https://gw.alipayobjects.com/zos/bmw-prod/91791904-cdde-4408-959d-72fd0c9049b1/kj80x6lv_w1918_h352.png)
+```tsx
+import React, { useState } from 'react';
+import { Vertify } from 'react-slider-vertify';
+
+export default () => {
+  const [visible, setVisible] = useState(false);
+  const show = () => {
+    setVisible(true);
+  };
+  const hide = () => {
+    setVisible(false);
+  };
+  const style = {
+    display: 'inline-block',
+    marginRight: '20px',
+    marginBottom: '20px',
+    width: '100px',
+    padding: '5px 20px',
+    color: '#fff',
+    textAlign: 'center',
+    cursor: 'pointer',
+    background: '#1991FA',
+  };
+  return (
+    <>
+      <div onClick={show} style={style}>
+        show
+      </div>
+      <div onClick={hide} style={style}>
+        hide
+      </div>
+      <Vertify
+        width={320}
+        height={160}
+        visible={visible}
+        onSuccess={() => alert('success')}
+        onFail={() => alert('fail')}
+        onRefresh={() => alert('refresh')}
+      />
+    </>
+  );
+};
+```
 
 ## ✨ Online preview
 
@@ -42,18 +84,3 @@ The rest of the documents can be consulted by yourself.
 | `npm run docs:build`    | Document packaging        | -                                                                                                                  |
 | `npm run docs:deploy`   | Document release          | The default is to use GitHub Pages                                                                                 |
 | `npm run deploy`        | Document package release  | -                                                                                                                  |
-
-### README Badge
-
-Using dumi ? Add a README badge to show it off: [![dumi](https://img.shields.io/badge/docs%20by-dumi-blue)](https://github.com/umijs/dumi)
-
-```
-[![dumi](https://img.shields.io/badge/docs%20by-dumi-blue)](https://github.com/umijs/dumi)
-```
-
-## Discuss group
-
-<div>
-  <img data-type="dingtalk" src="https://gw.alipayobjects.com/zos/bmw-prod/ec249703-be12-416c-8f33-297e47d9439c/kjy5ls84_w1004_h1346.png" width="300" />
-  <img data-type="wechat" src="https://gw.alipayobjects.com/zos/bmw-prod/c18bc2a5-719a-48ca-b225-c79ef88bfb43/k7m10ymd_w1004_h1346.jpeg" width="300" />
-</div>
