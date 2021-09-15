@@ -1,53 +1,29 @@
 # 🌟 uu-w-base
 
-A doc template can assist you to develop libraries & write docs.
+w'first component library✨
 
 English | [简体中文](./README.zh-CN.md)
 
 ## 🚀 How to use?
 
-```tsx
-import React, { useState } from 'react';
-import { Vertify } from 'react-slider-vertify';
+Install component library
 
-export default () => {
-  const [visible, setVisible] = useState(false);
-  const show = () => {
-    setVisible(true);
-  };
-  const hide = () => {
-    setVisible(false);
-  };
-  const style = {
-    display: 'inline-block',
-    marginRight: '20px',
-    marginBottom: '20px',
-    width: '100px',
-    padding: '5px 20px',
-    color: '#fff',
-    textAlign: 'center',
-    cursor: 'pointer',
-    background: '#1991FA',
-  };
-  return (
-    <>
-      <div onClick={show} style={style}>
-        show
-      </div>
-      <div onClick={hide} style={style}>
-        hide
-      </div>
-      <Vertify
-        width={320}
-        height={160}
-        visible={visible}
-        onSuccess={() => alert('success')}
-        onFail={() => alert('fail')}
-        onRefresh={() => alert('refresh')}
-      />
-    </>
-  );
-};
+```
+npm install uu-w-base -S
+```
+
+Download dependency
+
+```
+yarn |
+npm install |
+cnpm install |
+```
+
+Introduction component
+
+```
+import { Vertify } from 'uu-w-base'
 ```
 
 ## ✨ Online preview

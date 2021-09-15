@@ -1,53 +1,29 @@
 # 🌟 uu-w-base
 
-为组件开发场景而生的文档模板
+w 的第一个组件库 ✨
 
 [English](./README.md) | 简体中文
 
 ## 🚀 如何使用？
 
-```tsx
-import React, { useState } from 'react';
-import { Vertify } from 'react-slider-vertify';
+安装组件库
 
-export default () => {
-  const [visible, setVisible] = useState(false);
-  const show = () => {
-    setVisible(true);
-  };
-  const hide = () => {
-    setVisible(false);
-  };
-  const style = {
-    display: 'inline-block',
-    marginRight: '20px',
-    marginBottom: '20px',
-    width: '100px',
-    padding: '5px 20px',
-    color: '#fff',
-    textAlign: 'center',
-    cursor: 'pointer',
-    background: '#1991FA',
-  };
-  return (
-    <>
-      <div onClick={show} style={style}>
-        show
-      </div>
-      <div onClick={hide} style={style}>
-        hide
-      </div>
-      <Vertify
-        width={320}
-        height={160}
-        visible={visible}
-        onSuccess={() => alert('success')}
-        onFail={() => alert('fail')}
-        onRefresh={() => alert('refresh')}
-      />
-    </>
-  );
-};
+```
+npm install uu-w-base -S
+```
+
+下载依赖
+
+```
+yarn |
+npm install |
+cnpm install |
+```
+
+引入
+
+```
+import { Vertify } from 'uu-w-base'
 ```
 
 ## ✨ 在线预览
