@@ -52,7 +52,7 @@ export default () => {
 
 ## ✨ Online preview
 
-https://umijs.github.io/dumi-template/
+https://zhangwai.github.io/uu-w-base/
 
 ## 📒 Catalog Introduction
 

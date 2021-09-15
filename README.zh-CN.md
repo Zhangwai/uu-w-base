@@ -52,7 +52,7 @@ export default () => {
 
 ## ✨ 在线预览
 
-https://umijs.github.io/dumi-template/
+https://zhangwai.github.io/uu-w-base/
 
 ## 📒 目录介绍
 
