@@ -1,4 +1,4 @@
-# 🌟 Dumi Template
+# 🌟 uu-w-base
 
 A doc template can assist you to develop libraries & write docs.
 

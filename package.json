@@ -1,7 +1,12 @@
 {
-  "private": true,
-  "name": "dumi-template",
+  "private": false,
+  "name": "uu-w-base",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zhangwai/uu-w-base",
+    "branch": "main"
+  },
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -18,11 +23,6 @@
   "typings": "dist/index.d.ts",
   "gitHooks": {
     "pre-commit": "lint-staged"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/umijs/dumi-template",
-    "branch": "main"
   },
   "lint-staged": {
     "*.{js,jsx,less,md,json}": [
