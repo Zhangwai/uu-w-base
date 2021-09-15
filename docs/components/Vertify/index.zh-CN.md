@@ -2,7 +2,9 @@
 nav:
   title: 组件
   path: /components
----## Vertify
+---
+
+## Vertify
 
 ### 基本使用:
 
