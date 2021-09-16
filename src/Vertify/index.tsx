@@ -1,8 +1,8 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, FC } from 'react';
 import { VertifyProps } from './interface';
 import './index.less';
 import { getRandomNumberByRange, sum, square } from './tools';
-export const Vertify: React.FC<VertifyProps> = (props: VertifyProps) => {
+export const Vertify: FC<VertifyProps> = (props: VertifyProps) => {
   const {
     width = 320,
     height = 160,

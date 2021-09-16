@@ -14,6 +14,7 @@ export default defineConfig({
   // Because of using GitHub Pages
   base: `/${repo}/`,
   publicPath: `/${repo}/`,
+  styles: ['https://cdn.bootcdn.net/ajax/libs/antd/4.7.0/antd.min.css'],
   navs: [
     null,
     {

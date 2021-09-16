@@ -107,23 +107,23 @@ export default () => {
 
 <br />
 
-| 属性        | 说明                           | 类型         | 默认值   | 是否必传   | 版本 |
-| ----------- | ------------------------------ | ------------ | -------- | ---------- | ---- |
-| className   | Class name                     | string       | ''       | false      |      |
-| width       | width                          | number       | 230      | false      |      |
-| height      | height                         | number       | 160      | false      |      |
-| l           | Slider side length             | number       | 42       | false      |      |
-| r           | Slider radius                  | number       | 9        | false      |      |
-| x           | Slider X-axis position         | number       | random   | false      |      |
-| y           | Slider Y-axis position         | number       | random   | false      |      |
-| imgUrl      | Picture URL                    | string       | random   | false      |      |
-| refreshIcon | Refresh icon URL               | string       | fixed    | false      |      |
-| text        | Default slide content          | ReactNode    | string   | '滑动验证' |      |
-| errortext   | Failed slide content           | ReactNode    | string   | '再试一次' |      |
-| visible     | Verify that the box is visible | boolean      | true     | false      |      |
-| onSuccess   | Successful callback            | VoidFunction | ()=>void | false      |      |
-| onFail      | Failed callback                | VoidFunction | ()=>void | false      |      |
-| onRefresh   | Refresh callback               | VoidFunction | ()=>void | false      |      |
+| attribute   | explain                        | type         | Default value | Is it necessary to pass | edition |
+| ----------- | ------------------------------ | ------------ | ------------- | ----------------------- | ------- |
+| className   | Class name                     | string       | ''            | false                   |         |
+| width       | width                          | number       | 230           | false                   |         |
+| height      | height                         | number       | 160           | false                   |         |
+| l           | Slider side length             | number       | 42            | false                   |         |
+| r           | Slider radius                  | number       | 9             | false                   |         |
+| x           | Slider X-axis position         | number       | random        | false                   |         |
+| y           | Slider Y-axis position         | number       | random        | false                   |         |
+| imgUrl      | Picture URL                    | string       | random        | false                   |         |
+| refreshIcon | Refresh icon URL               | string       | fixed         | false                   |         |
+| text        | Default slide content          | ReactNode    | string        | '滑动验证'              |         |
+| errortext   | Failed slide content           | ReactNode    | string        | '再试一次'              |         |
+| visible     | Verify that the box is visible | boolean      | true          | false                   |         |
+| onSuccess   | Successful callback            | VoidFunction | ()=>void      | false                   |         |
+| onFail      | Failed callback                | VoidFunction | ()=>void      | false                   |         |
+| onRefresh   | Refresh callback               | VoidFunction | ()=>void      | false                   |         |
 
 <br />
 
