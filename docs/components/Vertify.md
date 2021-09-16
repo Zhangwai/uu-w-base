@@ -1,12 +1,10 @@
 ---
-nav:
-  title: Components
-  path: /components
+title: Vertify
+order: 2
+toc: menu
 ---
 
-## Vertify
-
-### Basic use:
+### Basic use
 
 ```tsx
 import React, { useState } from 'react';
@@ -16,7 +14,7 @@ export default () => {
 };
 ```
 
-### Set width and height:
+### Set width and height
 
 ```tsx
 import React from 'react';
@@ -27,7 +25,7 @@ export default () => {
 };
 ```
 
-### Set slider side length and radius:
+### Set slider side length and radius
 
 ```tsx
 import React from 'react';
@@ -38,7 +36,7 @@ export default () => {
 };
 ```
 
-### Callback when setting succeeded, failed and refreshed:
+### Callback when setting succeeded, failed and refreshed
 
 ```tsx
 import React from 'react';
@@ -57,7 +55,7 @@ export default () => {
 };
 ```
 
-### Dynamic settings show / hide:
+### Dynamic settings show / hide
 
 ```tsx
 import React, { useState } from 'react';
@@ -103,7 +101,7 @@ export default () => {
 };
 ```
 
-### Config:
+### Config
 
 <br />
 
@@ -127,7 +125,7 @@ export default () => {
 
 <br />
 
-### Basic config:
+### Basic config
 
 ```
       {

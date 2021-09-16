@@ -1,12 +1,10 @@
 ---
-nav:
-  title: 组件
-  path: /components
+title: 滑动验证组件
+order: 2
+toc: menu
 ---
 
-## Vertify
-
-### 基本使用:
+### 基本使用
 
 ```tsx
 import React, { useState } from 'react';
@@ -16,7 +14,7 @@ export default () => {
 };
 ```
 
-### 设置宽高:
+### 设置宽高
 
 ```tsx
 import React from 'react';
@@ -27,7 +25,7 @@ export default () => {
 };
 ```
 
-### 设置滑块边长和半径:
+### 设置滑块边长和半径
 
 ```tsx
 import React from 'react';
@@ -38,7 +36,7 @@ export default () => {
 };
 ```
 
-### 设置成功, 失败, 刷新时的回调:
+### 设置成功, 失败, 刷新时的回调
 
 ```tsx
 import React from 'react';
@@ -57,7 +55,7 @@ export default () => {
 };
 ```
 
-### 动态设置显示/ 隐藏:
+### 动态设置显示/ 隐藏
 
 ```tsx
 import React, { useState } from 'react';
@@ -103,7 +101,7 @@ export default () => {
 };
 ```
 
-### 配置:
+### 配置
 
 <br />
 
@@ -127,7 +125,7 @@ export default () => {
 
 <br />
 
-### 默认配置:
+### 默认配置
 
 ```
       {

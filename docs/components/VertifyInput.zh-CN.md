@@ -1,12 +1,10 @@
 ---
-nav:
-  title: 组件
-  path: /components
+title: 发送验证码组件
+order: 3
+toc: menu
 ---
 
-## VertifyInput
-
-### 基本使用:
+### 基本使用
 
 ```tsx
 import React from 'react';
@@ -15,7 +13,7 @@ import { VertifyInput } from 'uu-w-base';
 export default () => <VertifyInput sendCode={() => {}} onChange={() => {}} />;
 ```
 
-### 简单组合使用:
+### 简单组合使用
 
 ```tsx
 import React, { useState, useRef } from 'react';
@@ -84,6 +82,8 @@ export default () => (
 ```
 
 <br/>
+
+### 配置
 
 继承[antd input props](https://ant.design/components/input-cn/#Input)
 

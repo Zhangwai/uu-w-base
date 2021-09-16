@@ -1,12 +1,10 @@
 ---
-nav:
-  title: Components
-  path: /components
+title: VertifyInput
+order: 3
+toc: menu
 ---
 
-## VertifyInput
-
-### Basic use:
+### Basic use
 
 ```tsx
 import React from 'react';
@@ -21,7 +19,7 @@ export default () => (
 );
 ```
 
-### Simple combination:
+### Simple combination
 
 ```tsx
 import React, { useState, useRef } from 'react';
@@ -85,6 +83,8 @@ export default () => (
 ```
 
 <br/>
+
+### config
 
 继承[antd input props](https://ant.design/components/input-cn/#Input)
 
