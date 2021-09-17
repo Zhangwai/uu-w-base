@@ -57,7 +57,7 @@ export const VertifyInput: FC<VertifyInputProps> = (
     if (codeStatus) return;
     // 有校验条件但是不通过
     if (checkPhone && !checkPhone()) {
-      message.error('请输入正确手机号！');
+      message.error('请输入正确手机号！', 3);
       return;
     }
     //发送给接口发送

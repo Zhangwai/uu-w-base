@@ -25,7 +25,9 @@ let v;
 //输入的验证码
 let V;
 //模拟手机号码
-let phone = '123';
+let phone = '';
+//模拟后端预存号码
+let vphone = '';
 //拿到电话号的ref
 const InputRef = useRef();
 
@@ -37,9 +39,11 @@ const respo = () => {
 //验证简单手机号码长度
 const checkPhone = () => {
   if (phone && phone.length === 11) {
+    vphone = phone;
     return true;
   } else {
     phone = '';
+    vphone = '';
     InputRef.current.state.value = '';
     return false;
   }
@@ -49,14 +53,21 @@ const gogogo = () => {
   //一般这里请接口带参数啥的就行
   // console.log(V,v)
   //验证
-  if (V.toString() === v.toString()) {
-    message.success('验证通过了');
+  if (v && V.toString() === v.toString()) {
+    if (vphone === phone) {
+      message.success('验证通过了');
+    } else {
+      message.error('手机号码改变了亲');
+    }
+  } else {
+    message.error('验证失败了');
   }
 };
 export default () => (
   <div>
     <Input
       ref={InputRef}
+      placeholder="请输入11位手机号"
       style={{ margin: '0 0 20px 0', height: '40px' }}
       onChange={e => {
         phone = e.target.value;

@@ -27,11 +27,9 @@ import { Input, Button, message } from 'antd';
 import { VertifyInput } from 'uu-w-base';
 
 let v;
-
 let V;
-
-let phone = '123';
-
+let phone = '';
+let vphone = '';
 const InputRef = useRef();
 
 const respo = () => {
@@ -41,17 +39,25 @@ const respo = () => {
 
 const checkPhone = () => {
   if (phone && phone.length === 11) {
+    vphone = phone;
     return true;
   } else {
     phone = '';
+    vphone = '';
     InputRef.current.state.value = '';
     return false;
   }
 };
 
 const gogogo = () => {
-  if (V.toString() === v.toString()) {
-    message.success('succeess');
+  if (v && V.toString() === v.toString()) {
+    if (vphone === phone) {
+      message.success('succeess');
+    } else {
+      message.error('phone changed');
+    }
+  } else {
+    message.error('error');
   }
 };
 export default () => (
