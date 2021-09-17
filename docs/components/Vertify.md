@@ -101,7 +101,7 @@ export default () => {
 };
 ```
 
-### Config
+### Config(API)
 
 <br />
 

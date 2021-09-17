@@ -90,9 +90,9 @@ export default () => (
 
 <br/>
 
-### config
+### config(API)
 
-继承[antd input props](https://ant.design/components/input-cn/#Input)
+Inherited from [antd input props](https://ant.design/components/input-cn/#Input)
 
 | attribute     | explain                                   | type          | Default value | Is it necessary to pass | edition |
 | ------------- | ----------------------------------------- | ------------- | ------------- | ----------------------- | ------- |
