@@ -1,6 +1,12 @@
+/*
+  ts编译器的配置文件
+*/
 {
+  /*编译器选项*/
   "compilerOptions": {
+    // 指定编译的js版本,esnext表示最新的es版本
     "target": "esnext",
+    //指定要使用模块化的规范
     "module": "esnext",
     "moduleResolution": "node",
     "importHelpers": true,
@@ -8,13 +14,17 @@
     "esModuleInterop": true,
     "sourceMap": true,
     "baseUrl": "./",
+    //所有的严格选项都选上了
     "strict": true,
+    //编译去掉注释
+    "removeComments": true,
     "paths": {
       "@/*": ["src/*"],
       "@@/*": ["src/.umi/*"]
     },
     "allowSyntheticDefaultImports": true
   },
+  /*不编译文件*/
   "exclude": [
     "node_modules",
     "lib",
