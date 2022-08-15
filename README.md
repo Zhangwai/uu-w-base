@@ -60,3 +60,7 @@ The rest of the documents can be consulted by yourself.
 | `npm run docs:build`    | Document packaging        | -                                                                                                                  |
 | `npm run docs:deploy`   | Document release          | The default is to use GitHub Pages                                                                                 |
 | `npm run deploy`        | Document package release  | -                                                                                                                  |
+| `npm adduser`           | login npm account         | -                                                                                                                  |
+| `npm who am i`          | look npm account login    | -                                                                                                                  |
+| `npm publish`           | upload the package        | -                                                                                                                  |
+| `npm logout`            | log out                   | -                                                                                                                  |
