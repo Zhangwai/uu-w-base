@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "uu-w-base",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "repository": {
     "type": "git",
     "url": "https://github.com/Zhangwai/uu-w-base",
@@ -40,7 +40,8 @@
     "antd": ">=4.7.0",
     "classnames": ">=2.2.0",
     "lodash": ">=4.0.0",
-    "react": ">=16.8.0"
+    "react": ">=16.8.0",
+    "cropperjs": "1.5.11"
   },
   "devDependencies": {
     "babel-plugin-import": "^1.13.3",
